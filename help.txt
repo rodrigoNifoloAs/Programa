@@ -1,0 +1,2 @@
+cd
+mv /data/data/com.termux/files/home/Coprod/bash.bashrc /data/data/com.termux/files/usr/etc
