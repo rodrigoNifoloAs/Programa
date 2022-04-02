@@ -1,2 +1,0 @@
-cd
-mv /data/data/com.termux/files/home/Programa/bash.bashrc /data/data/com.termux/files/usr/etc
