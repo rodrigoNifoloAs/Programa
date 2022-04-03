@@ -55,7 +55,7 @@ while(True):
     elif respuesta=='13':
         os.system('cp -i /data/data/com.termux/files/home/Programa/13/bash.bashrc /data/data/com.termux/files/usr/etc')
     elif respuesta=='14':
-        print('Esto es el fin')'
+        print('Esto es el fin')
         break
     else:
         print('Error elegiste una opción invalida')
