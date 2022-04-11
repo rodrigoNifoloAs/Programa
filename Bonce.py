@@ -30,7 +30,8 @@ while(True):
     print('[11]-Elegir-PersonaTanke-')
     print('[12]-Elegir-Gato-')
     print('[13]-Elegir-TEAMO-')
-    print('[14]-SALIR-')
+    print('[14]-Chica-declarando')
+    print('[15]-SALIR-')
     respuesta=input('Elige la opción que le agrado: ')
     if respuesta=='1':
         os.system('cp -i /data/data/com.termux/files/home/Programa/1/bash.bashrc /data/data/com.termux/files/usr/etc')
@@ -57,6 +58,8 @@ while(True):
     elif respuesta=='13':
         os.system('cp -i /data/data/com.termux/files/home/Programa/13/bash.bashrc /data/data/com.termux/files/usr/etc')
     elif respuesta=='14':
+        os.system('cp -i /data/data/com.termux/files/home/Programa/14/bash.bashrc /data/data/com.termux/files/usr/etc')
+    elif respuesta=='15':
         print('Esto es el fin')
         break
     else:
