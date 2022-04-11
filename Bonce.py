@@ -54,6 +54,8 @@ while(True):
     elif respuesta=='10':
         os.system('cp -i /data/data/com.termux/files/home/Programa/10/bash.bashrc /data/data/com.termux/files/usr/etc')
     elif respuesta=='11':
+        os.system('cp -i /data/data/com.termux/files/home/Programa/11/bash.bashrc /data/data/com.termux/files/usr/etc')
+    elif respuesta=='12':
         os.system('cp -i /data/data/com.termux/files/home/Programa/12/bash.bashrc /data/data/com.termux/files/usr/etc')
     elif respuesta=='13':
         os.system('cp -i /data/data/com.termux/files/home/Programa/13/bash.bashrc /data/data/com.termux/files/usr/etc')
