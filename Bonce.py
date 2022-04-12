@@ -16,7 +16,7 @@ os.system('rm -rf /data/data/com.termux/files/usr/etc/motd')
 os.system('cd')
 
 while(True):
-    print('---SUPER MENU---')
+    print('---------SUPER+MENU---------')
     print('[1]-Elegir-LOVE-')
     print('[2]-Elegir-DarRosa-')
     print('[3]-Elegir-Calaberita-')
@@ -30,8 +30,12 @@ while(True):
     print('[11]-Elegir-PersonaTanke-')
     print('[12]-Elegir-Gato-')
     print('[13]-Elegir-TEAMO-')
-    print('[14]-Chica-declarando')
-    print('[15]-SALIR-')
+    print('[14]-Chica-declarando-')
+    print('[15]-Ak-arma-')
+    print('[16]-Oso-')
+    print('[17]-Gatitaojito-')
+    print('[18]-Beso-novios-')
+    print('[sal]-SALIR-')
     respuesta=input('Elige la opción que le agrado: ')
     if respuesta=='1':
         os.system('cp -i /data/data/com.termux/files/home/Programa/1/bash.bashrc /data/data/com.termux/files/usr/etc')
@@ -62,6 +66,14 @@ while(True):
     elif respuesta=='14':
         os.system('cp -i /data/data/com.termux/files/home/Programa/14/bash.bashrc /data/data/com.termux/files/usr/etc')
     elif respuesta=='15':
+        os.system('cp -i /data/data/com.termux/files/home/Programa/15/bash.bashrc /data/data/com.termux/files/usr/etc')
+    elif respuesta=='16':
+        os.system('cp -i /data/data/com.termux/files/home/Programa/16/bash.bashrc /data/data/com.termux/files/usr/etc')
+    elif respuesta=='17':
+        os.system('cp -i /data/data/com.termux/files/home/Programa/17/bash.bashrc /data/data/com.termux/files/usr/etc')
+    elif respuesta=='18':
+        os.system('cp -i /data/data/com.termux/files/home/Programa/18/bash.bashrc /data/data/com.termux/files/usr/etc')
+    elif respuesta=='sal':
         print('Esto es el fin')
         break
     else:
